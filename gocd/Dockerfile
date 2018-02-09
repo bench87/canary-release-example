@@ -14,6 +14,3 @@ ENV PATH $PATH:/usr/local/go/bin
 
 # gocd agent settings
 ENV AGENT_AUTO_REGISTER_RESOURCES docker-client
-
-# go bashrc
-RUN chown -R go:go /go-support
