@@ -1,4 +1,4 @@
-FROM gocd/gocd-agent-centos-7:v17.10.0
+FROM gocd/gocd-agent-centos-7:v18.1.0
 MAINTAINER  Mason <mason.servant@kakaocorp.com>
 
 # docker install
