@@ -6,9 +6,6 @@ RUN yum install -y curl
 RUN yum install -y docker-client
 RUN yum install -y sudo
 RUN echo -e "\n## GoCD\ngo	ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-COPY proxy .
-RUN cat proxy >> /etc/profile
-RUN source /etc/profile
 
 # go install
 RUN curl -LO https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz
